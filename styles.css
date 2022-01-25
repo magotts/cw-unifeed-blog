@@ -25,13 +25,25 @@ header .nav {
 
 main {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3em;
 }
 
 main img {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
 }
 
-main h2 {
+main h1 {
   font-weight: 600;
+}
+
+.author {
+  display: flex;
+}
+
+.author img {
+  width: auto;
+  height: 4em;
 }
