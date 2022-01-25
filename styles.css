@@ -41,7 +41,7 @@ header .nav {
 
 .author {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -59,9 +59,16 @@ header .nav {
 
 .author .name {
   padding-left: 10px;
+  margin: 0;
+  font-weight: 800;
 
 }
 
+.author .title {
+  padding-left: 10px;
+  margin: 0;
+  font-weight: 300;
+}
 .main .blog-feed {
   display: grid;
   grid-template: 3, 3, 3;
