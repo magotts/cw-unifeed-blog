@@ -69,9 +69,15 @@ header .nav {
   margin: 0;
   font-weight: 300;
 }
+
 .main .blog-feed {
   display: grid;
   grid-template: 3, 3, 3;
+}
+
+.blogpost .author img {
+  width: auto;
+  height: 4em;
 }
 
 .blogpost img {
