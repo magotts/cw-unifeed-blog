@@ -2,7 +2,14 @@
 
 body {
   font-family: 'Manrope', sans-serif;
+
 }
+
+p {
+  color: grey;
+
+}
+
 
 .container {
   margin: 3em;
@@ -86,6 +93,11 @@ header .nav {
 }
 
 .blogpost img {
-  max-width: 30%;
+  max-width: 80%;
   height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
 }
