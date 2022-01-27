@@ -35,6 +35,8 @@ header .nav {
   justify-content: space-between;
   align-items: center;
   gap: 3em;
+  margin-top: 5em;
+
 }
 
 .main img {
@@ -81,10 +83,12 @@ header .nav {
   /* display: grid;
   grid-template: 1; */
   display: flex;
+  justify-content: space-evenly;
 }
 
 .blogpost {
-  padding: 1em;
+  padding: 5em 1em;
+  
 }
 
 .blogpost .author img {
