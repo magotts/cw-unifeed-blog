@@ -130,4 +130,32 @@ footer {
     display: inline;
   }
   
+  .main {
+    flex-direction: column;
+  }
+
+  .main img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .blog-feed {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blogpost {
+    padding: 1.5em 0;
+  }
+
+  footer {
+    flex-direction: column;
+    padding-top: 2em;
+  }
+
+  footer img {
+    width: 20%;
+    height: auto;
+  }
 }
