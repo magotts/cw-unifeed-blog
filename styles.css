@@ -31,6 +31,10 @@ header .nav {
   color: grey;
 }
 
+.hamburger {
+  display: none;
+}
+
 .sub-btn {
   border-radius: 5px;
   padding: 1em;
@@ -115,4 +119,15 @@ header .nav {
 footer {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 776px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+  
 }
