@@ -23,11 +23,22 @@ header .nav {
 .nav ul li {
   display: inline;
   list-style: none;
-
+  padding-left: 1.5em;
 }
 
 .nav ul li a {
   text-decoration: none;
+  color: grey;
+}
+
+.sub-btn {
+  border-radius: 5px;
+  padding: 1em;
+  font-weight: 600;
+  border: none;
+  font-size: 15px;
+  background-color: orange;
+  cursor: pointer;
 }
 
 .main {
