@@ -139,6 +139,11 @@ footer {
     height: auto;
   }
 
+  .author img {
+    width: 11%;
+    height: auto;
+  }
+  
   .blog-feed {
     flex-direction: column;
     justify-content: center;
